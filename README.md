@@ -13,6 +13,6 @@ Further due to time constraints, there are a lot of features, functionalities an
 - I would also try to handle errors through a "Whoops something went wrong page, to prevent dislpaying errors on production".
 - There are so many house keeping things that I might forgot to do, like moving my javscript files to a seperate page and indentation.
 - Try to optimize the database operations in the following ways,
--       Picking the most optimal data tyypes for storing values.
--       Reduucing the usage of SELECT statements to reduce overall execution time.
+- Picking the most optimal data tyypes for storing values.
+- Reduucing the usage of SELECT statements to reduce overall execution time.
    
