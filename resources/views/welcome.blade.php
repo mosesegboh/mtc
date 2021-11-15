@@ -238,30 +238,17 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div style="height: 400px;">
-                   
-                    <div style="height:80%;">
-                        <input id="pac-input" class="controls" placeholder="Search By Location" type="hidden"/>
+                    <div style="height:100%;">
                         <div id="map"></div>
-                    </div>
-
-                    <div style="height:20%;">
                         <div class="form-check">
                             <div class="mt-3" style="align-items: center;">
                                 <input class="" type="text" placeholder="Type Here" name="addressSearch" id="addressSearch">
                                 <span class="text-danger error-text addressSearch_error"></span>
-                                <span class="ml-3">Search By: </span>
-                                <div class="form-check form-check-inline ml-2">
-                                    <input class="form-check-input" type="radio" name="searchMapCriteria" id="searchMapCriteria" value="address">
-                                    <label class="form-check-label" for="inlineRadio1">Address</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="searchMapCriteria" id="searchMapCriteria" value="location">
-                                    <label class="form-check-label" for="inlineRadio2">Location</label>
-                                </div>
-                                <span class="text-danger error-text editSaleOrRent_error"></span>
+                                <div class="" style="" id="addressList"></div>
+                              
+                                @csrf
+                        
                             </div>
-                            <div class="" style="" id="addressList"></div>
-                            @csrf
                         </div>
                     </div>
                 </div> 

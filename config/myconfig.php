@@ -1,6 +1,5 @@
 <?php
 
-
 return [
     'config' => [
         'server_url' => env('SERVER_URL', null),
