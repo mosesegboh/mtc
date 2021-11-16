@@ -2,7 +2,6 @@ Hello,
 I attempted all tasks,
 However, Here are the points to note;
 -Note that in task 2, Name is not part of the data gotten from the API, so i used "country" column for  that.
--The data gotten fromthe API appears to have some duplicate property uuid. I tried to avoid duplicate entries. This reduced the number of rows in my db. Not sure if that was intended.
 
 Furthermore, due to time constraints, there are a lot of features, functionalities and practices I would have loved to have implemented which includes but not limited to;
 - Implementation of a more user friendly UI implementing some fancy UserInterface using react js, material UI, theme UIs and or vue js .
