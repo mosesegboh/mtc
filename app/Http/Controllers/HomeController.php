@@ -161,12 +161,6 @@ class HomeController extends Controller
             $data = DB::table('properties')
                 ->where('displayableAddress', 'LIKE', "%{$request->get('query')}%")
                 ->get();
-            
-            if ($request->get('searchCriteria') == "location") {
-                $data = DB::table('properties')
-                ->where('country', 'LIKE', "%{$request->get('query')}%")
-                ->get();
-            }
 
             $output = '<ul class="dropdown-menu" style="display:block; position:relative">';
 
